@@ -1,0 +1,16 @@
+test, first, last
+Test123!
+major, uni, 1
+=====
+guy, the, per
+Nice123!
+math, usf, 2
+=====
+som, asdf, per
+Bruh123!
+math, usf, 2
+=====
+daniel, the, adsf
+Pickle123!
+math, ucf, 1
+=====

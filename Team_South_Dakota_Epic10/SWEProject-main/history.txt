@@ -1,0 +1,223 @@
+*   f901c8b (HEAD -> main, origin/main, origin/HEAD) Merge pull request #7 from Mohannadshih/Epic-10
+|\  
+| * c1653db removed print unneeded print statements
+| * 28342a7 Update history.txt
+|/  
+* 8764ac2 didnt need that return statement oops
+* cb1377a last test function
+* 8908a74 applied and saved_jobs test
+* 7539d77 outprofile test
+* 8343fd0 in_jobs inserts new jobs
+* 1448955 in_jobs checks database for existing jobs
+* 9dc7535 fix for out_applied_jobs
+* 14dae1d removed debug statements in api
+*   445e954 Merge remote-tracking branch 'origin/Epic-10' into Epic-10
+|\  
+| * cfb7629 Added out applied job API call for adding jobs
+* | ba355d9 Merge remote-tracking branch 'origin/Epic-10' into Epic-10
+|\| 
+| * 8c7776a Took out debug statements and added proper out API calls
+* | f0d748d removed debug prints in some api functions
+* | 40a2eb7 removed debug prints in in_jobs(), out_applied_jobs(), out_saved_jobs()
+|/  
+* 9d7cb83 fixed edge case in out_applied_jobs
+* 8a91a1f Deleted unecessary table creation for out profiles
+* 9efdad1 Fix to out profiles and API calls
+* af4158c Updated with new Burndown charts for Epic 10
+*   19d454f Merge remote-tracking branch 'origin/Epic-10' into Epic-10
+|\  
+| * c6e16ca In students API will skip entries that are already inside database
+* | 06348e1 added out_saved_jobs api functional
+* | 406cbc3 added out_saved_jobs api functional
+|/  
+* 1eb37a4 added out_applied_jobs api
+* 64d1da8 added in_jobs api
+*   07cb48e Merge branch 'Epic-10' of https://github.com/Mohannadshih/SWEProject into Epic-10
+|\  
+| *   98b3ab7 Merge branch 'Epic-10' of https://github.com/Mohannadshih/SWEProject into Epic-10
+| |\  
+| | * 56f8833 Added new comments and expection handling for In Jobs API
+| * | db402bc instudents test done
+| |/  
+| * 1647323 Added exception when File doesn't exist
+| * 109922b Fully functional In Students API
+| *   6980046 Merge branch 'Epic-10' of https://github.com/Mohannadshih/SWEProject into Epic-10
+| |\  
+| | * d1dcd20 In student API almost done and Dummy student.txt
+| * | 14f2205 new test functions
+| |/  
+* / 3f7cb04 added in_jobs api
+|/  
+* 68ee8b2 Added in student api call to main and made in student api almost fully functional
+* 509944c template for user in txt file
+* 0e210b3 implemented out profile API and added it's function calls
+* bb343b9 Implemented outjob api function
+* e57352e Runs two out apis at startup (outjobs and outusers)
+* 52f29fd Working out api for college users
+* 81995ac Made the empty functions for rest of APIs
+* b73d55f template code for out saved and applied jobs
+* fb1818a will updated out user api when creating acc
+* b688243 added new out_user func to main
+* 470bb44 New file for epic 10
+* d3c1fd8 New history.txt for epic 8
+* ad7e6b2 New burndown charts for epic 8
+*   ba9b72a Merge pull request #6 from Mohannadshih/Epic-8
+|\  
+| * fea081c added some test functions
+| * a1d26ec fixed empty recent apps list error
+| * 40f488d added checker for friend input for sending message
+| * 43b6ec8 added notification for 7 days without applications & fixed # of apps notification
+| * abd42eb applications amount shown
+| * c8e71b8 added notification for applied job deletion
+| * f31c8b6 added broken jobdelete notification function
+| * c76931e new jobs notification and new users done
+| * 3f40072 profile notification
+|/  
+* b2e8104 Updated burndown charts for Epic 7
+* 937eea2 New History.txt for Epic 7
+* 318b989 Deleting cache
+*   6207a03 Merge pull request #5 from Mohannadshih/Epic-7
+|\  
+| *   87c9dc6 Merge branch 'main' into Epic-7
+| |\  
+| |/  
+|/|   
+* | 2dd8421 Revert "Deleting cache"
+* | 406553b Deleting cache
+* |   bf4ed93 Merge branch 'main' of https://github.com/Mohannadshih/SWEProject
+|\ \  
+* | | 516c85e Update history.txt
+| | * 44899e3 Deleting unneeded files
+| | * 3c98190 Revert "fixed tier swapping"
+| | *   6548ab9 Merge branch 'Epic-7' of https://github.com/Mohannadshih/SWEProject into Epic-7
+| | |\  
+| | | * 2bb3c8d fixed tier swapping
+| | | * 5ea04af Added new test functions for Epic 7
+| | | * 031e69a Cleaner print statement when changing tiers
+| | * | c7d04e0 added some test functions
+| | |/  
+| | * 34cdabb Deleting cache
+| | * 126f22e Epic7_Main_DRAFT
+| | * 6493d27 Messaging part 3
+| | * cea711e Messaging part 2
+| | * 277f9ca Messaging part 1
+| | * fafe201 added standard and premium tiers and ability to change between
+| | * f3ed4a4 Notifications with Saved delete
+| | * 828bc1e New Changes - Epic 7
+| |/  
+| * 6caa0b6 Updated history.txt as graph
+| *   f5bfb39 Merge pull request #3 from Mohannadshih/Epic-6-Branch
+| |\  
+| | *   78d5161 Merge branch 'Epic-6-Branch' of https://github.com/Mohannadshih/SWEProject into Epic-6-Branch
+| | |\  
+| | | * 8ec664f Update main.py
+| | * | 98ce392 added notifications and fixed some functions
+| | |/  
+| | *   d409c23 Merge branch 'Epic-6-Branch' of https://github.com/Mohannadshih/SWEProject into Epic-6-Branch
+| | |\  
+| | * | a60ec9d display notifications, fixed some functions
+| * | | ae061b7 Deleting cache
+|/ / /  
+* | |   d1ad963 Merge branch 'Epic-6-Branch'
+|\ \ \  
+| | |/  
+| |/|   
+| * | 587a184 Notifications
+| * | a176214 Fixed Apply for job
+| * | 7738577 Update main.py
+| * | c61abe1 Update main.py
+| * | 2a54dae added job test functions
+| * | b39787c Display not applied
+| |/  
+| *   93c74c8 Merge branch 'Epic-6-Branch' of https://github.com/Mohannadshih/SWEProject into Epic-6-Branch
+| |\  
+| | * 46cd15d Deleting cache
+| | * fcb1900 Fixing jobsearch part 2
+| | * de79f45 Input options in Jobsearch
+| | *   6fc453c Merge branch 'Epic-6-Branch' of https://github.com/Mohannadshih/SWEProject into Epic-6-Branch
+| | |\  
+| | * | b780938 Shows Applied Jobs
+| | * | 4e74200 Job Application
+| * | | 96a299d Fixed some bugs and added some code
+| * | | 92af9ca Update main.py
+| | |/  
+| |/|   
+| * | 4b464c1 added "saving jobs", "displaying a list of saved jobs", and "deleting jobs from the list" functions
+| |/  
+| * fa47fc5 added "add a job", "delete a job", "display all jobs" functions
+| * 772ce1c increased num of job listings from 5 to 10
+* | 6e05f26 New ReadME for burndown charts
+|/  
+* e84b382 Git log with the branch merge request
+* c7d281b Delete __pycache__ directory
+*   9aa1429 Merge pull request #2 from Mohannadshih/new_branch
+|\  
+| * a503309 Final history text file version for Epic 5
+| * 1e57a1e Fixed minor bugs for final Epic 5 version
+| * e811520 Updated git log file for Epic 5
+| * e1ff4cd Finishing touches for Epic 5 (Still has bugs unfixed)
+| * 1aba475 Updated test file with newest functions
+| * 212b8e5 Added functionality to view profiles
+| * 8b1b899 for loop for profile
+| *   92e13b3 Merge branch 'new_branch' of https://github.com/Mohannadshih/SWEProject into new_branch
+| |\  
+| | * c800e09 forgot to go back to login success after create pr
+| | *   b0a37a9 Merge branch 'new_branch' of https://github.com/Mohannadshih/SWEProject into new_branch
+| | |\  
+| | * | e9e34ea added user column to profile table
+| * | | 6aa31bd Updated profile func
+| | |/  
+| |/|   
+| * | a609f10 added create_profile(username)
+| * | 82e68a2 Merge branch 'new_branch' of https://github.com/Mohannadshih/SWEProject into new_branch
+| |\| 
+| | *   7045a47 Merge branch 'new_branch' of https://github.com/Mohannadshih/SWEProject into new_branch
+| | |\  
+| | | *   b980e71 Merge branch 'new_branch' of https://github.com/Mohannadshih/SWEProject into new_branch
+| | | |\  
+| | | * | c822613 added display profile in friends
+| | * | | aec7bb7 Added stop and go functionality to profile
+| | |/ /  
+| * | / 18291ef deleted display_profile() function
+| | |/  
+| |/|   
+| * | 1578f26 added display_profile() function
+| * | 45951b4 Added the create_profile function
+| * | 935c992 Create frienddata.cpython-36.pyc
+| |/  
+| * f4eb583 added check to see if profile table exists
+| * 695abcf changes to main and create profile
+| * 4572551 Add files via upload
+* | 7d79a1f Revert "Add files via upload"
+* | 6e84787 Add files via upload
+|/  
+* d1c1b2e Created history.txt for all commits for Epic 4
+* ceafff7 Finishing touches for Epic 4
+* ec0c181 Added new test functions for epic 4
+* 9f32a5b fixed unpacking error, fixed duplicate requests
+* 1284d00 Added functionality to check if user was not found
+* 78e98ee fixed no table exists error
+* 4824275 Implemented a list of results
+* 613bae6 friend stuff all works
+* 06cb46a fixed showfriend function
+* 22c57ed fixed type issues in main
+* 31356d9 can add friend now and request gets deleted
+* f41837e working output
+* d323c3a new commit
+* 7f70cb7 added display requests
+* 5f988a6 frienddata change
+*   0e705fb Merge branch 'main' of https://github.com/Mohannadshih/SWEProject
+|\  
+| * 1bc8109 import csv added
+* | 7f5c897 made frienddata changes
+|/  
+* 869c95a Morning commit
+* 13e24fd Pushing new changes from replit
+* a756c64 csv
+* eef9357 clean
+* 262c350 Commit all
+* 1f33872 pre friends
+* fb4d6bf post contact found changes
+* d514f16 pre contact found changes
+* c53b4ce added username and password parameters
+* 5e5b8d4 Initial commit

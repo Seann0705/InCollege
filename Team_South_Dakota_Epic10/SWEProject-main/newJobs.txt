@@ -1,0 +1,21 @@
+Junior Software Engineer
+This is an example description. Hello World!
+jobcreator
+Google
+Silicon Valley
+$177,013
+=====
+Senior Software Engineer
+This is another example description. Lol idk what to write
+jobcreator
+Elgoog
+Silicon Mountain
+$9,000
+=====
+Full Stack Developer
+Yet another description again.
+jobcreator
+Goelgo
+Silicon Plains
+$87
+=====
